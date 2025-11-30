@@ -27,21 +27,13 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full bg-card/95 backdrop-blur-sm border-b border-border shadow-soft">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo and Brand */}
-          <Link to="/" className="flex items-center gap-3 group">
+          {/* Logo Only */}
+          <Link to="/" className="flex items-center group">
             <img 
               src={logo} 
               alt="Sumirama Foundation Logo" 
               className="h-14 w-auto transition-transform duration-300 group-hover:scale-105"
             />
-            <div className="hidden sm:block">
-              <h1 className="text-xl font-bold text-foreground leading-tight">
-                Sumirama Foundation
-              </h1>
-              <p className="text-xs text-muted-foreground font-medium italic">
-                We Rise By Lifting Others
-              </p>
-            </div>
           </Link>
 
           {/* Desktop Navigation */}
